@@ -1,0 +1,1 @@
+En mi opinión la mejor opción para el consumo de una API en react es el uso de axios ya sea con promesas o con una funcion asincrona, ya que facilita la legibilidad del código y su uso es bastante sensillo.
