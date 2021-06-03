@@ -21,7 +21,8 @@ const GetByFetch = () => {
   // Render
   return (
     <div className="gif-container">
-      <h2>{data.title}</h2>
+      <h2>Promises with fetch</h2>
+      <h3>{data.title}</h3>
       <figure>
         <img src={data.image_original_url} alt={data.title} />
       </figure>

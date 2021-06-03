@@ -25,7 +25,8 @@ const GetAndDestructuring = () => {
   // Render
   return (
     <div className="gif-container">
-      <h2>{myData.title}</h2>
+      <h2>Destructuring</h2>
+      <h3>{myData.title}</h3>
       <figure>
         <img src={myData.image_original_url} alt={myData.title} />
       </figure>
